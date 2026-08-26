@@ -75,7 +75,7 @@ Different gains must never be conflated:
 
 | Measure | Numerator / denominator | What it establishes |
 |---|---|---|
-| $Q_{plasma}$ | fusion power / external power coupled to plasma | Core plasma performance. |
+| Qₚₗₐₛₘₐ | fusion power / external power coupled to plasma | Core plasma performance. |
 | Target gain | fusion yield / energy delivered to an ICF target | Capsule-scale performance. |
 | Engineering gain | useful fusion thermal energy / facility input energy | System energy balance. |
 | Grid gain | exported electrical energy / total purchased electrical energy | Electricity-plant outcome. |
@@ -110,8 +110,8 @@ The p–B11 reaction produces three alpha particles and is often called aneutron
 | Cycle | Main products | Principal advantage | Principal reactor obstacle | Evidence status |
 |---|---|---|---|---|
 | D–T | alpha + 14.1 MeV neutron | Highest low-temperature reactivity | Tritium breeding; neutron damage | Best-developed path; no closed plant cycle |
-| D–D | mixed n, p, T, $^3$He | Deuterium-only input | Low reactivity; neutron and tritium branches | Physics established |
-| D–$^3$He | alpha + proton | Lower primary neutron fraction | Hotter plasma; helium-3 supply | Physics established; reactor projected |
+| D–D | mixed n, p, T, ³He | Deuterium-only input | Low reactivity; neutron and tritium branches | Physics established |
+| D–³He | alpha + proton | Lower primary neutron fraction | Hotter plasma; helium-3 supply | Physics established; reactor projected |
 | p–B11 | three alphas | Neutron-reduced primary reaction | Very difficult reactivity/radiation balance | Physics established; reactor speculative |
 
 ## 3. How a fusion power plant would work
@@ -469,7 +469,7 @@ Suppose a mission needs $\Delta v=10\,\mathrm{km/s}$. At $I_{sp}=450\,\mathrm{s}
 
 ## F.2 Fuel-cycle implications
 
-| Property | D–T | D–D | D–$^3$He | p–B11 |
+| Property | D–T | D–D | D–³He | p–B11 |
 |---|---|---|---|---|
 | Reactivity at accessible fusion temperatures | Best | Lower | Lower and hotter | Much lower/hotter |
 | Dominant useful product | Neutron energy + alpha heating | Mixed branches | Charged products | Charged products |
@@ -484,7 +484,7 @@ An honest plant energy balance should show, preferably as a Sankey diagram or nu
 
 | Item often left implicit | Why it matters |
 |---|---|
-| Wall-plug-to-plasma heating efficiency | A high $Q_{plasma}$ may still correspond to large facility power draw. |
+| Wall-plug-to-plasma heating efficiency | A high Qₚₗₐₛₘₐ may still correspond to large facility power draw. |
 | Cryogenic load and magnet protection | Superconducting magnets save resistive power but require refrigeration and reliability systems. |
 | Current-drive power | Essential to many steady-state tokamak projections. |
 | Blanket/primary-coolant temperature | Sets conversion efficiency and materials constraints. |
