@@ -440,7 +440,7 @@ Suppose a mission needs $\Delta v=10\,\mathrm{km/s}$. At $I_{sp}=450\,\mathrm{s}
 <a id="ref-10"></a>
 10. Bosch, H.-S., and G. M. Hale. “Improved formulas for fusion cross-sections and thermal reactivities.” *Nuclear Fusion* 32 (1992): 611. Standard reactivity reference. https://doi.org/10.1088/0029-5515/32/4/I07  
 <a id="ref-11"></a>
-11. Rider, T. H. “Fundamental limitations on plasma fusion systems not in thermodynamic equilibrium.” *Physics of Plasmas* 2 (1995): 1853. Important caution for advanced/aneutronic fuel claims. https://doi.org/10.1063/1.871273  
+11. Rider, T. H. “Fundamental limitations on plasma fusion systems not in thermodynamic equilibrium.” *Physics of Plasmas* 4 (1997): 1039–1046. Important caution for non-equilibrium and advanced-fuel claims. https://doi.org/10.1063/1.872556  
 <a id="ref-12"></a>
 12. Wesson, J., and D. J. Campbell. *Tokamaks*, 4th ed. Oxford University Press, 2011. Comprehensive magnetic-fusion reference.  
 <a id="ref-13"></a>
@@ -452,7 +452,7 @@ Suppose a mission needs $\Delta v=10\,\mathrm{km/s}$. At $I_{sp}=450\,\mathrm{s}
 <a id="ref-16"></a>
 16. **IAEA.** *International Experience in the Regulation of Fusion Facilities* (2025). Current regulatory comparison. https://www.iaea.org/publications  
 <a id="ref-17"></a>
-17. Frisbee, R. H. “Advanced space propulsion for the 21st century.” *Journal of Propulsion and Power* 19 (2003): 1129–1154. A technical survey of future propulsion concepts. https://doi.org/10.2514/2.6942  
+17. Frisbee, R. H. “Advanced space propulsion for the 21st century.” *Journal of Propulsion and Power* 19 (2003): 1129–1154. A technical survey of future propulsion concepts. https://doi.org/10.2514/2.6948  
 <a id="ref-18"></a>
 18. **NASA.** Nuclear propulsion and space-technology program material. Useful for contrast with more mature nuclear-thermal and nuclear-electric concepts. https://www.nasa.gov/  
 
