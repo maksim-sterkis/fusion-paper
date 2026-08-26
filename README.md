@@ -59,7 +59,7 @@ $$
 P_f= n_D n_T\langle\sigma v\rangle E_f,
 $$
 
-where $\langle\sigma v\rangle$ is the temperature-dependent reactivity. This exponential sensitivity is why D–T is attractive: its reactivity peaks at much lower temperature than D–$^3$He or proton–boron-11 (p–B11). **[Demonstrated theory and data]** [10](#ref-10), [11](#ref-11)
+where $\langle\sigma v\rangle$ is the temperature-dependent reactivity. This exponential sensitivity is why D–T is attractive: its reactivity peaks at much lower temperature than D–³He or proton–boron-11 (p–B11). **[Demonstrated theory and data]** [10](#ref-10), [11](#ref-11)
 
 The phrase “fusion temperature” is shorthand, not a switch. A plasma at tens of keV contains a distribution of particle energies, and meaningful output depends on density, temperature, composition, impurities, and confinement. Higher temperature can raise reactivity, but it can also increase losses, reduce stability margin, and intensify material heat flux. **[Demonstrated plasma physics]** [9](#ref-9), [10](#ref-10), [12](#ref-12), [13](#ref-13)
 
@@ -99,9 +99,9 @@ Most D–T energy is carried by 14.1 MeV neutrons. A lithium-containing blanket 
 
 ### 2.2 D–D and D–helium-3
 
-D–D fusion avoids initial tritium input but has lower reactivity and produces a mixture of charged particles, neutrons, tritium, and helium-3. The tritium branch ultimately returns the system to a D–T-like neutron problem. D–$^3$He produces a charged proton and alpha particle in its principal branch and has an attractive direct-energy-conversion story, but it requires much hotter plasma and still has side reactions that make neutrons. It also needs large quantities of helium-3, which are not available from an established terrestrial energy supply. **[Demonstrated reaction physics; projected reactor relevance]** [10](#ref-10), [11](#ref-11)
+D–D fusion avoids initial tritium input but has lower reactivity and produces a mixture of charged particles, neutrons, tritium, and helium-3. The tritium branch ultimately returns the system to a D–T-like neutron problem. D–³He produces a charged proton and alpha particle in its principal branch and has an attractive direct-energy-conversion story, but it requires much hotter plasma and still has side reactions that make neutrons. It also needs large quantities of helium-3, which are not available from an established terrestrial energy supply. **[Demonstrated reaction physics; projected reactor relevance]** [10](#ref-10), [11](#ref-11)
 
-Helium-3 mining on the Moon is frequently presented as a solution to terrestrial energy scarcity. It is not a current energy plan: concentrations, extraction energy, lunar industrial infrastructure, transport, and the harder D–$^3$He reactor all remain unresolved. Lunar helium-3 is a resource hypothesis, not a demonstrated fuel supply. **[Speculative economic proposition]** [9](#ref-9), [10](#ref-10), [11](#ref-11), [14](#ref-14)
+Helium-3 mining on the Moon is frequently presented as a solution to terrestrial energy scarcity. It is not a current energy plan: concentrations, extraction energy, lunar industrial infrastructure, transport, and the harder D–³He reactor all remain unresolved. Lunar helium-3 is a resource hypothesis, not a demonstrated fuel supply. **[Speculative economic proposition]** [9](#ref-9), [10](#ref-10), [11](#ref-11), [14](#ref-14)
 
 ### 2.3 p–B11 and “aneutronic” claims
 
@@ -319,7 +319,7 @@ The outer solar system is where a hypothetical compact fusion plant could be mos
 
 Fusion might eventually provide compact space-based power for habitats, scientific stations, or resource-processing sites. In the nearer term, solar power, batteries, fuel cells, radioisotope systems, and fission concepts have far stronger evidence bases. Moon or asteroid resource use does not change this hierarchy until there is an economically operating extraterrestrial industrial base. **[Projected]** [17](#ref-17), [18](#ref-18)
 
-Helium-3 extraction narratives are a particularly useful reality check. Even if a lunar process could recover helium-3, it would need energy, machines, labor or autonomy, transport, and a reactor that benefits from the fuel. The demand side is not established because D–$^3$He reactors are not established. Resource claims should therefore be evaluated as coupled infrastructure scenarios rather than a concentration estimate multiplied by lunar area. **[Speculative economic system]** [17](#ref-17), [18](#ref-18)
+Helium-3 extraction narratives are a particularly useful reality check. Even if a lunar process could recover helium-3, it would need energy, machines, labor or autonomy, transport, and a reactor that benefits from the fuel. The demand side is not established because D–³He reactors are not established. Resource claims should therefore be evaluated as coupled infrastructure scenarios rather than a concentration estimate multiplied by lunar area. **[Speculative economic system]** [17](#ref-17), [18](#ref-18)
 
 Science fiction often uses fusion as a compact, silent, unlimited engine. Physics permits impressive energy density, but engineering demands a credible power density, heat sink, radiator, neutron shielding, fuel cycle, maintenance plan, and failure mode. A story can choose a breakthrough; an analysis must name it. **[Methodological conclusion]** [17](#ref-17), [18](#ref-18)
 
