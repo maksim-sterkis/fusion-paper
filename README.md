@@ -23,13 +23,13 @@ This paper uses four evidence tiers throughout.
 
 Fusion releases nuclear binding energy when light nuclei combine into a more tightly bound product. The attractive arithmetic is real: D–T reactions release 17.6 MeV per fusion event, millions of times more energy per unit mass of reactants than chemical combustion. The difficult part is the Coulomb barrier: positively charged nuclei repel one another, so useful reaction rates require exceptionally hot, dense, and well-confined plasma, or an alternative compression scheme. **[Demonstrated]**
 
-The headline word *net energy* is dangerously incomplete. At the National Ignition Facility (NIF), experiments have produced fusion yield exceeding laser energy delivered to the target, a target-level gain and an ignition-related scientific achievement. It does **not** mean a facility exported net electricity, because the laser system consumes far more wall-plug energy than reaches the capsule and no power-conversion plant was operated. **[Demonstrated for target gain; not demonstrated for plant gain]** [1, 2]
+The headline word *net energy* is dangerously incomplete. At the National Ignition Facility (NIF), experiments have produced fusion yield exceeding laser energy delivered to the target, a target-level gain and an ignition-related scientific achievement. It does **not** mean a facility exported net electricity, because the laser system consumes far more wall-plug energy than reaches the capsule and no power-conversion plant was operated. **[Demonstrated for target gain; not demonstrated for plant gain]** [1](#ref-1), [2](#ref-2)
 
-ITER is designed to test burning-plasma physics at an approximately Q=10 fusion-power-gain target, while major national DEMO programs study later electricity-producing prototypes. ITER is not designed to supply commercial electricity. Its importance is that a D–T burning plasma at reactor scale is an engineering and scientific prerequisite, not that it settles blanket breeding, availability, maintenance, licensing, or cost. **[Projected design objective]** [3, 4]
+ITER is designed to test burning-plasma physics at an approximately Q=10 fusion-power-gain target, while major national DEMO programs study later electricity-producing prototypes. ITER is not designed to supply commercial electricity. Its importance is that a D–T burning plasma at reactor scale is an engineering and scientific prerequisite, not that it settles blanket breeding, availability, maintenance, licensing, or cost. **[Projected design objective]** [3](#ref-3), [4](#ref-4)
 
-The most consequential constraints are not simply achieving fusion reactions. A viable D–T plant requires a tritium breeding ratio with operating margin, robust first-wall and divertor materials under intense 14 MeV neutron exposure, remote replacement of irradiated internal components, high heat-to-electricity conversion efficiency, low recirculating power, and enough availability to service debt. Those requirements interact: a hotter or more compact machine can improve core performance while worsening exhaust and material loads. **[Engineered pieces; whole-plant integration unproven]** [4–7]
+The most consequential constraints are not simply achieving fusion reactions. A viable D–T plant requires a tritium breeding ratio with operating margin, robust first-wall and divertor materials under intense 14 MeV neutron exposure, remote replacement of irradiated internal components, high heat-to-electricity conversion efficiency, low recirculating power, and enough availability to service debt. Those requirements interact: a hotter or more compact machine can improve core performance while worsening exhaust and material loads. **[Engineered pieces; whole-plant integration unproven]** [4](#ref-4), [5](#ref-5), [6](#ref-6), [7](#ref-7)
 
-Commercial dates announced by companies or governments are milestones, not evidence. The appropriate test is a dated scorecard: report independently verified plasma performance, energy accounting boundary, duty cycle, radiation environment, and demonstrated subsystem lifetime; label everything else as projected. On that test, no fusion enterprise has yet delivered net electricity to a grid or shown a tritium-self-sufficient D–T power-plant cycle. **[Demonstrated absence as of this report date]** [1, 3, 8]
+Commercial dates announced by companies or governments are milestones, not evidence. The appropriate test is a dated scorecard: report independently verified plasma performance, energy accounting boundary, duty cycle, radiation environment, and demonstrated subsystem lifetime; label everything else as projected. On that test, no fusion enterprise has yet delivered net electricity to a grid or shown a tritium-self-sufficient D–T power-plant cycle. **[Demonstrated absence as of this report date]** [1](#ref-1), [3](#ref-3), [8](#ref-8)
 
 Fusion would complement rather than automatically displace renewables, storage, transmission, efficiency, geothermal energy, and fission. Its possible economic niche is firm low-carbon energy and perhaps high-temperature heat where it can achieve reliable availability and cost. Cheap fuel alone does not make cheap electricity: capital, replacement parts, remote maintenance, financing, and outages dominate the unknowns. **[Projected economic conclusion]**
 
@@ -39,43 +39,43 @@ For spaceflight, a terrestrial fusion power plant is not an engine. A spacecraft
 
 ### 1.1 Binding energy and reaction energy
 
-Nuclei are bound by the strong nuclear force. Binding energy per nucleon rises steeply from hydrogen toward iron, so fusing light nuclei can lower the total rest mass. The mass difference appears as kinetic energy and radiation, according to \(E=mc^2\). D–T fusion is
+Nuclei are bound by the strong nuclear force. Binding energy per nucleon rises steeply from hydrogen toward iron, so fusing light nuclei can lower the total rest mass. The mass difference appears as kinetic energy and radiation, according to $E=mc^2$. D–T fusion is
 
-\[
+$$
 {}^2\mathrm{H}+{}^3\mathrm{H}\rightarrow{}^4\mathrm{He}\,(3.5\ \mathrm{MeV})+n\,(14.1\ \mathrm{MeV}),
-\]
+$$
 
-for a total of 17.6 MeV. The charged alpha particle can heat a magnetically confined plasma; the neutron has no magnetic charge and deposits most of its energy in surrounding material. **[Demonstrated nuclear physics]** [9, 10]
+for a total of 17.6 MeV. The charged alpha particle can heat a magnetically confined plasma; the neutron has no magnetic charge and deposits most of its energy in surrounding material. **[Demonstrated nuclear physics]** [9](#ref-9), [10](#ref-10)
 
 Fusion and fission are both nuclear-energy technologies, but their control problems differ. Fission reactors sustain neutron-driven chain reactions in solid fuel; fusion requires external conditions—hot fuel, confinement, and sufficient density—to persist. If a magnetic plasma loses confinement or an inertial capsule misses compression, the reaction rate falls rapidly. That eliminates the conventional criticality/runaway mechanism of fission, but it does not eliminate hazards from tritium, activated components, cryogens, magnets, stored energy, or radioactive waste. **[Demonstrated physics; engineered safety implication]**
 
 ### 1.2 Coulomb barrier, tunnelling, and reaction rate
 
-Two bare nuclei with charges \(Z_1e\) and \(Z_2e\) repel through the Coulomb potential. Thermal particles need not classically surmount the barrier; quantum tunnelling allows a small fraction of collisions to react. The cross-section is strongly energy-dependent and is conventionally written through an astrophysical S-factor and a Gamow factor. For Maxwellian fuel distributions, the volumetric fusion power scales roughly as
+Two bare nuclei with charges $Z_1e$ and $Z_2e$ repel through the Coulomb potential. Thermal particles need not classically surmount the barrier; quantum tunnelling allows a small fraction of collisions to react. The cross-section is strongly energy-dependent and is conventionally written through an astrophysical S-factor and a Gamow factor. For Maxwellian fuel distributions, the volumetric fusion power scales roughly as
 
-\[
+$$
 P_f= n_D n_T\langle\sigma v\rangle E_f,
-\]
+$$
 
-where \(\langle\sigma v\rangle\) is the temperature-dependent reactivity. This exponential sensitivity is why D–T is attractive: its reactivity peaks at much lower temperature than D–\(^3\)He or proton–boron-11 (p–B11). **[Demonstrated theory and data]** [10, 11]
+where $\langle\sigma v\rangle$ is the temperature-dependent reactivity. This exponential sensitivity is why D–T is attractive: its reactivity peaks at much lower temperature than D–$^3$He or proton–boron-11 (p–B11). **[Demonstrated theory and data]** [10](#ref-10), [11](#ref-11)
 
 The phrase “fusion temperature” is shorthand, not a switch. A plasma at tens of keV contains a distribution of particle energies, and meaningful output depends on density, temperature, composition, impurities, and confinement. Higher temperature can raise reactivity, but it can also increase losses, reduce stability margin, and intensify material heat flux. **[Demonstrated plasma physics]**
 
 ### 1.3 Plasma basics and confinement
 
-A plasma is a quasi-neutral ionized gas whose charged particles collectively respond to electric and magnetic fields. In a magnetic field, particles gyrate around field lines; carefully shaped fields reduce transport across those lines. Important quantities include particle density \(n\), temperature \(T\), energy-confinement time \(\tau_E\), plasma pressure \(p\), and beta \(\beta=p/(B^2/2\mu_0)\), the ratio of plasma pressure to magnetic pressure. A useful reactor must balance pressure high enough for reactions against stability and magnet limits. **[Demonstrated]** [12]
+A plasma is a quasi-neutral ionized gas whose charged particles collectively respond to electric and magnetic fields. In a magnetic field, particles gyrate around field lines; carefully shaped fields reduce transport across those lines. Important quantities include particle density $n$, temperature $T$, energy-confinement time $\tau_E$, plasma pressure $p$, and beta $\beta=p/(B^2/2\mu_0)$, the ratio of plasma pressure to magnetic pressure. A useful reactor must balance pressure high enough for reactions against stability and magnet limits. **[Demonstrated]** [12](#ref-12)
 
 Plasma confinement is not a sealed bottle. Microscopic turbulence, collisions, energetic particles, radiation, and edge losses carry heat and particles outward. Large-scale instabilities can redistribute plasma current or energy abruptly. Magnetic fusion performance is therefore a systems property: geometry, profiles, heating, fueling, feedback control, exhaust, and wall condition all matter. **[Demonstrated]**
 
 ### 1.4 Lawson criterion and gain boundaries
 
-The Lawson criterion states that fusion self-heating becomes possible when density, temperature, and confinement meet a fuel-specific condition. A common shorthand is the triple product \(nT\tau_E\). It is a necessary performance measure, not a complete reactor criterion: it does not by itself specify plant efficiency, tritium breeding, availability, or cost. **[Demonstrated theoretical framework]** [13]
+The Lawson criterion states that fusion self-heating becomes possible when density, temperature, and confinement meet a fuel-specific condition. A common shorthand is the triple product $nT\tau_E$. It is a necessary performance measure, not a complete reactor criterion: it does not by itself specify plant efficiency, tritium breeding, availability, or cost. **[Demonstrated theoretical framework]** [13](#ref-13)
 
 Different gains must never be conflated:
 
 | Measure | Numerator / denominator | What it establishes |
 |---|---|---|
-| \(Q_{plasma}\) | fusion power / external power coupled to plasma | Core plasma performance. |
+| $Q_{plasma}$ | fusion power / external power coupled to plasma | Core plasma performance. |
 | Target gain | fusion yield / energy delivered to an ICF target | Capsule-scale performance. |
 | Engineering gain | useful fusion thermal energy / facility input energy | System energy balance. |
 | Grid gain | exported electrical energy / total purchased electrical energy | Electricity-plant outcome. |
@@ -91,32 +91,32 @@ Chemical combustion is mature, controllable, and energy-dense enough for transpo
 
 ### 2.1 Deuterium–tritium: the near-term baseline
 
-D–T has the largest useful reactivity at the lowest attainable plasma temperature among practical fusion candidates. Deuterium is available in natural water. Tritium is radioactive (half-life about 12.3 years), scarce in nature, and must be produced, recovered, and carefully contained. A D–T plant is thus not fueled simply by seawater; it is a tritium-management facility coupled to a fusion reactor. **[Demonstrated nuclear data; engineered fuel-cycle challenge]** [9, 14]
+D–T has the largest useful reactivity at the lowest attainable plasma temperature among practical fusion candidates. Deuterium is available in natural water. Tritium is radioactive (half-life about 12.3 years), scarce in nature, and must be produced, recovered, and carefully contained. A D–T plant is thus not fueled simply by seawater; it is a tritium-management facility coupled to a fusion reactor. **[Demonstrated nuclear data; engineered fuel-cycle challenge]** [9](#ref-9), [14](#ref-14)
 
-Most D–T energy is carried by 14.1 MeV neutrons. A lithium-containing blanket surrounding the vacuum vessel is expected to slow those neutrons, convert their energy to heat, shield magnets and structures, and breed tritium through neutron–lithium reactions. To support a fleet, the plant must achieve tritium breeding ratio (TBR) greater than one after accounting for decay, processing inventories, losses, reserve needs, and measurement uncertainty. A calculated TBR above unity is not evidence of fleet self-sufficiency; it is a design result that needs integrated validation. **[Projected for power plants]** [5, 6]
+Most D–T energy is carried by 14.1 MeV neutrons. A lithium-containing blanket surrounding the vacuum vessel is expected to slow those neutrons, convert their energy to heat, shield magnets and structures, and breed tritium through neutron–lithium reactions. To support a fleet, the plant must achieve tritium breeding ratio (TBR) greater than one after accounting for decay, processing inventories, losses, reserve needs, and measurement uncertainty. A calculated TBR above unity is not evidence of fleet self-sufficiency; it is a design result that needs integrated validation. **[Projected for power plants]** [5](#ref-5), [6](#ref-6)
 
 ### 2.2 D–D and D–helium-3
 
-D–D fusion avoids initial tritium input but has lower reactivity and produces a mixture of charged particles, neutrons, tritium, and helium-3. The tritium branch ultimately returns the system to a D–T-like neutron problem. D–\(^3\)He produces a charged proton and alpha particle in its principal branch and has an attractive direct-energy-conversion story, but it requires much hotter plasma and still has side reactions that make neutrons. It also needs large quantities of helium-3, which are not available from an established terrestrial energy supply. **[Demonstrated reaction physics; projected reactor relevance]** [10, 11]
+D–D fusion avoids initial tritium input but has lower reactivity and produces a mixture of charged particles, neutrons, tritium, and helium-3. The tritium branch ultimately returns the system to a D–T-like neutron problem. D–$^3$He produces a charged proton and alpha particle in its principal branch and has an attractive direct-energy-conversion story, but it requires much hotter plasma and still has side reactions that make neutrons. It also needs large quantities of helium-3, which are not available from an established terrestrial energy supply. **[Demonstrated reaction physics; projected reactor relevance]** [10](#ref-10), [11](#ref-11)
 
-Helium-3 mining on the Moon is frequently presented as a solution to terrestrial energy scarcity. It is not a current energy plan: concentrations, extraction energy, lunar industrial infrastructure, transport, and the harder D–\(^3\)He reactor all remain unresolved. Lunar helium-3 is a resource hypothesis, not a demonstrated fuel supply. **[Speculative economic proposition]**
+Helium-3 mining on the Moon is frequently presented as a solution to terrestrial energy scarcity. It is not a current energy plan: concentrations, extraction energy, lunar industrial infrastructure, transport, and the harder D–$^3$He reactor all remain unresolved. Lunar helium-3 is a resource hypothesis, not a demonstrated fuel supply. **[Speculative economic proposition]**
 
 ### 2.3 p–B11 and “aneutronic” claims
 
-The p–B11 reaction produces three alpha particles and is often called aneutronic. Its main attractions are reduced primary neutron production and potentially direct conversion of charged-particle energy. Its liabilities are severe: much lower reactivity at accessible temperatures, required ion energies of order hundreds of keV, bremsstrahlung radiation losses, and unavoidable secondary neutron channels in realistic plasmas. “Aneutronic” should mean neutron-reduced relative to D–T, not radiation-free or easy. **[Demonstrated nuclear physics; projected reactor feasibility]** [10, 11]
+The p–B11 reaction produces three alpha particles and is often called aneutronic. Its main attractions are reduced primary neutron production and potentially direct conversion of charged-particle energy. Its liabilities are severe: much lower reactivity at accessible temperatures, required ion energies of order hundreds of keV, bremsstrahlung radiation losses, and unavoidable secondary neutron channels in realistic plasmas. “Aneutronic” should mean neutron-reduced relative to D–T, not radiation-free or easy. **[Demonstrated nuclear physics; projected reactor feasibility]** [10](#ref-10), [11](#ref-11)
 
 ### 2.4 Fuel-cycle comparison
 
 | Cycle | Main products | Principal advantage | Principal reactor obstacle | Evidence status |
 |---|---|---|---|---|
 | D–T | alpha + 14.1 MeV neutron | Highest low-temperature reactivity | Tritium breeding; neutron damage | Best-developed path; no closed plant cycle |
-| D–D | mixed n, p, T, \(^3\)He | Deuterium-only input | Low reactivity; neutron and tritium branches | Physics established |
-| D–\(^3\)He | alpha + proton | Lower primary neutron fraction | Hotter plasma; helium-3 supply | Physics established; reactor projected |
+| D–D | mixed n, p, T, $^3$He | Deuterium-only input | Low reactivity; neutron and tritium branches | Physics established |
+| D–$^3$He | alpha + proton | Lower primary neutron fraction | Hotter plasma; helium-3 supply | Physics established; reactor projected |
 | p–B11 | three alphas | Neutron-reduced primary reaction | Very difficult reactivity/radiation balance | Physics established; reactor speculative |
 
 ## 3. How a fusion power plant would work
 
-A reference magnetic D–T plant has: (1) a fuel and isotope-separation system; (2) a vacuum vessel and plasma-facing first wall; (3) magnets, power supplies, heating and current-drive systems; (4) breeding blankets and shielding; (5) a primary coolant; (6) heat exchangers and a turbine-generator or other conversion system; (7) tritium extraction, detritiation, accounting, and storage; (8) hot cells, cranes, robots, and remote-handling tooling; and (9) conventional electrical and cooling infrastructure. The fusion core is only one subsystem. **[Projected whole-plant architecture; components engineered to varying degrees]** [4–7]
+A reference magnetic D–T plant has: (1) a fuel and isotope-separation system; (2) a vacuum vessel and plasma-facing first wall; (3) magnets, power supplies, heating and current-drive systems; (4) breeding blankets and shielding; (5) a primary coolant; (6) heat exchangers and a turbine-generator or other conversion system; (7) tritium extraction, detritiation, accounting, and storage; (8) hot cells, cranes, robots, and remote-handling tooling; and (9) conventional electrical and cooling infrastructure. The fusion core is only one subsystem. **[Projected whole-plant architecture; components engineered to varying degrees]** [4](#ref-4), [5](#ref-5), [6](#ref-6), [7](#ref-7)
 
 Energy flow is conceptually simple: fusion products heat blanket/coolant material; the coolant transfers heat to a power cycle; a turbine-generator exports electricity. The practical losses are numerous: heating and current drive, cryogenic loads for superconducting magnets, pumps, tritium systems, vacuum, diagnostics, controls, cooling, and outage periods all consume value. A thermal plant with 40% conversion efficiency needs roughly 2.5 units of thermal fusion heat for one unit of gross electricity; net output is lower after internal loads. **[Engineered thermodynamics; projected plant accounting]**
 
@@ -126,11 +126,11 @@ Maintenance separates an experiment from a product. Neutrons displace atoms, cre
 
 ### 4.1 Tokamaks
 
-A tokamak uses a strong toroidal magnetic field and a plasma current to create helical field lines that confine a toroidal plasma. It is the most mature high-performance magnetic configuration, with decades of experiments establishing high temperature, significant fusion power, and control methods. Its central weakness is that conventional current drive naturally produces pulsed operation and can produce disruptions—rapid loss or redistribution of current and plasma energy. Non-inductive current drive and bootstrap current can support steady-state operation in principle, but cost, efficiency, and stability remain central issues. **[Demonstrated configuration; steady-state commercial operation projected]** [3, 12]
+A tokamak uses a strong toroidal magnetic field and a plasma current to create helical field lines that confine a toroidal plasma. It is the most mature high-performance magnetic configuration, with decades of experiments establishing high temperature, significant fusion power, and control methods. Its central weakness is that conventional current drive naturally produces pulsed operation and can produce disruptions—rapid loss or redistribution of current and plasma energy. Non-inductive current drive and bootstrap current can support steady-state operation in principle, but cost, efficiency, and stability remain central issues. **[Demonstrated configuration; steady-state commercial operation projected]** [3](#ref-3), [12](#ref-12)
 
 ### 4.2 Stellarators and spherical tokamaks
 
-Stellarators use externally shaped three-dimensional coils to generate rotational transform without relying on a large plasma current. Their appeal is steady-state operation and reduced disruption exposure; their difficulty is exceptionally complex magnet geometry and historically poorer confinement. Modern optimized stellarators, notably Wendelstein 7-X, have substantially advanced confinement and long-pulse operation, but have not demonstrated a power-plant fuel cycle or economics. **[Demonstrated experimental progress; reactor projection]** [15]
+Stellarators use externally shaped three-dimensional coils to generate rotational transform without relying on a large plasma current. Their appeal is steady-state operation and reduced disruption exposure; their difficulty is exceptionally complex magnet geometry and historically poorer confinement. Modern optimized stellarators, notably Wendelstein 7-X, have substantially advanced confinement and long-pulse operation, but have not demonstrated a power-plant fuel cycle or economics. **[Demonstrated experimental progress; reactor projection]** [15](#ref-15)
 
 Spherical tokamaks use a compact, low-aspect-ratio geometry that can provide high beta and potentially smaller machines. They also impose tight engineering space for center columns, shielding, maintenance, and high-field magnets. Compactness should not be equated with lower plant cost without a full replacement and availability model. **[Demonstrated experiments; cost claim projected]**
 
@@ -146,9 +146,9 @@ High-temperature superconductors can create stronger fields than conventional lo
 
 ## 5. Inertial-confinement fusion
 
-In inertial confinement fusion (ICF), a tiny fuel capsule is compressed and heated so rapidly that its own inertia confines it briefly. In indirect drive, lasers heat a hohlraum whose x-rays implode the capsule; in direct drive, lasers illuminate the capsule more directly. Compression must be remarkably symmetric. Small asymmetries, hydrodynamic instabilities, mix of shell material into hot fuel, or laser–plasma interactions can lower yield sharply. **[Demonstrated physics and experiments]** [1, 2]
+In inertial confinement fusion (ICF), a tiny fuel capsule is compressed and heated so rapidly that its own inertia confines it briefly. In indirect drive, lasers heat a hohlraum whose x-rays implode the capsule; in direct drive, lasers illuminate the capsule more directly. Compression must be remarkably symmetric. Small asymmetries, hydrodynamic instabilities, mix of shell material into hot fuel, or laser–plasma interactions can lower yield sharply. **[Demonstrated physics and experiments]** [1](#ref-1), [2](#ref-2)
 
-NIF ignition experiments are scientifically important because they have entered a regime in which fusion alpha particles significantly heat the fuel, and shots have exceeded the laser energy delivered to the target. This validates aspects of high-energy-density physics and capsule design. It does not demonstrate a commercial laser-fusion plant: today’s system was built for stockpile-stewardship research, not high wall-plug efficiency, high repetition rate, cheap targets, or rapid chamber turnaround. **[Demonstrated target-level result; power-plant inference not supported]** [1, 2]
+NIF ignition experiments are scientifically important because they have entered a regime in which fusion alpha particles significantly heat the fuel, and shots have exceeded the laser energy delivered to the target. This validates aspects of high-energy-density physics and capsule design. It does not demonstrate a commercial laser-fusion plant: today’s system was built for stockpile-stewardship research, not high wall-plug efficiency, high repetition rate, cheap targets, or rapid chamber turnaround. **[Demonstrated target-level result; power-plant inference not supported]** [1](#ref-1), [2](#ref-2)
 
 A laser-fusion power plant would require driver efficiency, perhaps several shots each second or more depending on plant scale, automated injection and tracking of extremely consistent targets, a chamber that survives repeated neutron and debris pulses, tritium handling, blanket systems, and turbine-grade heat recovery. Heavy-ion drivers and pulsed-power concepts aim at different parts of this trade space, but no integrated repetitive power-plant cycle has been demonstrated. **[Projected]**
 
@@ -164,7 +164,7 @@ Claims of lattice-confined fusion, low-energy nuclear reactions, or similar extr
 
 ### 7.1 First wall, divertor, and materials
 
-The first wall faces neutron irradiation, particle bombardment, thermal cycling, and potential off-normal events. The divertor faces exceptionally concentrated heat and particle flux. Tungsten is favored in many concepts because of its high melting point and low sputtering, but it is brittle under some conditions and can contaminate plasma if eroded. Reduced-activation ferritic/martensitic steels, silicon-carbide composites, liquid lithium or lead-lithium concepts, and advanced copper alloys each trade strength, activation, thermal performance, chemical compatibility, and fabrication complexity. **[Engineered materials research; lifetime under full reactor spectrum unproven]** [6, 7]
+The first wall faces neutron irradiation, particle bombardment, thermal cycling, and potential off-normal events. The divertor faces exceptionally concentrated heat and particle flux. Tungsten is favored in many concepts because of its high melting point and low sputtering, but it is brittle under some conditions and can contaminate plasma if eroded. Reduced-activation ferritic/martensitic steels, silicon-carbide composites, liquid lithium or lead-lithium concepts, and advanced copper alloys each trade strength, activation, thermal performance, chemical compatibility, and fabrication complexity. **[Engineered materials research; lifetime under full reactor spectrum unproven]** [6](#ref-6), [7](#ref-7)
 
 The D–T neutron spectrum is a particularly hard qualification problem. Neutrons displace atoms, produce helium bubbles and swelling, alter thermal conductivity, and activate structures. Fission-reactor experience is informative but not a full substitute because spectra, temperatures, fluxes, and transmutation products differ. Dedicated materials irradiation sources and representative component tests are therefore strategically important. **[Demonstrated damage mechanisms; fusion-lifetime data gap]**
 
@@ -176,7 +176,7 @@ Remote maintenance has been developed for hazardous and radioactive environments
 
 ## 8. Safety, waste, and environmental impact
 
-Fusion cannot sustain a conventional fission-style chain reaction. Loss of suitable plasma conditions sharply reduces fusion power. This is a genuine safety advantage, but it should not be marketed as “no radioactive materials” or “no waste.” D–T facilities manage radioactive tritium and neutron-activated equipment; activated materials need characterization, storage, recycling pathways where feasible, and disposal routes. **[Demonstrated physics; waste classifications jurisdiction-dependent]** [16]
+Fusion cannot sustain a conventional fission-style chain reaction. Loss of suitable plasma conditions sharply reduces fusion power. This is a genuine safety advantage, but it should not be marketed as “no radioactive materials” or “no waste.” D–T facilities manage radioactive tritium and neutron-activated equipment; activated materials need characterization, storage, recycling pathways where feasible, and disposal routes. **[Demonstrated physics; waste classifications jurisdiction-dependent]** [16](#ref-16)
 
 Relevant accident scenarios include tritium releases, coolant or chemical fires, cryogenic hazards, magnet quench events, vacuum failures, stored electrical/magnetic energy, and handling accidents involving activated components. Consequence analysis must be facility-specific. Fusion’s source term and decay profile may be more manageable than long-lived spent fission fuel in some designs, but that conclusion depends on materials choices, contamination, and regulation—not on the word fusion alone. **[Projected comparative safety assessment]**
 
@@ -201,11 +201,11 @@ Private-company milestones should be audited with five questions: What energy bo
 
 ## 10. Present fusion ecosystem
 
-Public programs form the evidentiary backbone of fusion: ITER pursues burning-plasma physics and key technologies; JET established major D–T experimental results before ending operations; JT-60SA expands superconducting tokamak research; NIF advances high-energy-density ignition science; Wendelstein 7-X tests optimized stellarator operation; and national DEMO, STEP, CFETR, and related programs study subsequent prototypes. These facilities have different missions and must not be ranked by a single “net-energy” metric. **[Demonstrated facilities; future milestones projected]** [1, 3, 4, 15]
+Public programs form the evidentiary backbone of fusion: ITER pursues burning-plasma physics and key technologies; JET established major D–T experimental results before ending operations; JT-60SA expands superconducting tokamak research; NIF advances high-energy-density ignition science; Wendelstein 7-X tests optimized stellarator operation; and national DEMO, STEP, CFETR, and related programs study subsequent prototypes. These facilities have different missions and must not be ranked by a single “net-energy” metric. **[Demonstrated facilities; future milestones projected]** [1](#ref-1), [3](#ref-3), [4](#ref-4), [15](#ref-15)
 
 The private sector broadens design exploration and can accelerate manufacturing, software, magnets, and subsystem iteration. It also introduces an incentive to publicize preliminary milestones. Public and private work are complementary when results are made legible: independent diagnostics, clear accounting boundaries, peer review where possible, and disclosure of the engineering assumptions that turn a plasma result into a plant claim. **[Evidence-standard conclusion]**
 
-International collaboration is inherent because fusion combines nuclear materials, advanced computing, superconductors, lasers, high-vacuum manufacturing, and sensitive tritium technologies. Collaboration can distribute cost and knowledge; export controls and intellectual property can slow supply chains or limit verification. Regulation must evolve without assuming that a non-fission hazard profile implies no rigorous safety case. **[Demonstrated institutional fact; policy implications projected]** [4, 16]
+International collaboration is inherent because fusion combines nuclear materials, advanced computing, superconductors, lasers, high-vacuum manufacturing, and sensitive tritium technologies. Collaboration can distribute cost and knowledge; export controls and intellectual property can slow supply chains or limit verification. Regulation must evolve without assuming that a non-fission hazard profile implies no rigorous safety case. **[Demonstrated institutional fact; policy implications projected]** [4](#ref-4), [16](#ref-16)
 
 ## 11. Fusion for electricity generation
 
@@ -255,11 +255,11 @@ Safeguards attention is warranted where tritium, high-flux neutrons, lithium pro
 
 The ideal rocket equation is
 
-\[
+$$
 \Delta v = v_e\ln\!\left(\frac{m_0}{m_f}\right)=g_0 I_{sp}\ln\!\left(\frac{m_0}{m_f}\right),
-\]
+$$
 
-where \(v_e\) is exhaust velocity, \(I_{sp}\) specific impulse, and \(m_0/m_f\) mass ratio. High exhaust velocity reduces propellant required for a given delta-v. It does not alone make a useful mission: thrust depends on exhaust mass flow and power. For an ideal kinetic exhaust, \(P\approx\tfrac12\dot m v_e^2\) and \(F=\dot m v_e\), so \(F\approx2P/v_e\). At fixed power, raising exhaust velocity lowers thrust. **[Demonstrated mechanics]**
+where $v_e$ is exhaust velocity, $I_{sp}$ specific impulse, and $m_0/m_f$ mass ratio. High exhaust velocity reduces propellant required for a given delta-v. It does not alone make a useful mission: thrust depends on exhaust mass flow and power. For an ideal kinetic exhaust, $P\approx\tfrac12\dot m v_e^2$ and $F=\dot m v_e$, so $F\approx2P/v_e$. At fixed power, raising exhaust velocity lowers thrust. **[Demonstrated mechanics]**
 
 This tradeoff explains why high-specific-impulse electric propulsion is excellent for low-thrust cargo and deep-space missions but cannot replace high-thrust launch vehicles. It also explains why a fusion spacecraft needs an extraordinary specific power: reactor mass, conversion equipment, propellant, shielding, structures, and radiators must be low enough that the engine’s delta-v advantage is not consumed by its own mass. **[Demonstrated mechanics; fusion-system implication projected]**
 
@@ -316,7 +316,7 @@ The outer solar system is where a hypothetical compact fusion plant could be mos
 
 Fusion might eventually provide compact space-based power for habitats, scientific stations, or resource-processing sites. In the nearer term, solar power, batteries, fuel cells, radioisotope systems, and fission concepts have far stronger evidence bases. Moon or asteroid resource use does not change this hierarchy until there is an economically operating extraterrestrial industrial base. **[Projected]**
 
-Helium-3 extraction narratives are a particularly useful reality check. Even if a lunar process could recover helium-3, it would need energy, machines, labor or autonomy, transport, and a reactor that benefits from the fuel. The demand side is not established because D–\(^3\)He reactors are not established. Resource claims should therefore be evaluated as coupled infrastructure scenarios rather than a concentration estimate multiplied by lunar area. **[Speculative economic system]**
+Helium-3 extraction narratives are a particularly useful reality check. Even if a lunar process could recover helium-3, it would need energy, machines, labor or autonomy, transport, and a reactor that benefits from the fuel. The demand side is not established because D–$^3$He reactors are not established. Resource claims should therefore be evaluated as coupled infrastructure scenarios rather than a concentration estimate multiplied by lunar area. **[Speculative economic system]**
 
 Science fiction often uses fusion as a compact, silent, unlimited engine. Physics permits impressive energy density, but engineering demands a credible power density, heat sink, radiator, neutron shielding, fuel cycle, maintenance plan, and failure mode. A story can choose a breakthrough; an analysis must name it. **[Methodological conclusion]**
 
@@ -350,43 +350,43 @@ The balanced judgment is neither “fusion is solved” nor “fusion is forever
 
 For two distinct Maxwellian species, reaction rate per volume is
 
-\[
+$$
 R = n_1n_2\langle\sigma v\rangle.
-\]
+$$
 
-For an equimolar D–T plasma of electron density approximately equal to ion density \(n\), \(n_D\approx n_T\approx n/2\), so \(P_f\approx n^2\langle\sigma v\rangle E_f/4\). The alpha-heating fraction is \(3.5/17.6\approx0.20\), before losses and escape. A reactor calculation must add radiation, transport, dilution, alpha confinement, profile effects, and engineering geometry; this simple expression is a scaling relation, not a plant model. **[Demonstrated derivation]**
+For an equimolar D–T plasma of electron density approximately equal to ion density $n$, $n_D\approx n_T\approx n/2$, so $P_f\approx n^2\langle\sigma v\rangle E_f/4$. The alpha-heating fraction is $3.5/17.6\approx0.20$, before losses and escape. A reactor calculation must add radiation, transport, dilution, alpha confinement, profile effects, and engineering geometry; this simple expression is a scaling relation, not a plant model. **[Demonstrated derivation]**
 
 ## A.2 Lawson-style energy balance
 
-In an idealized D–T thermal plasma, alpha heating must at least balance energy losses. With thermal energy density proportional to \(nT\) and loss power density approximately energy density divided by \(\tau_E\), the ignition condition takes the form
+In an idealized D–T thermal plasma, alpha heating must at least balance energy losses. With thermal energy density proportional to $nT$ and loss power density approximately energy density divided by $\tau_E$, the ignition condition takes the form
 
-\[
+$$
 n\tau_E \gtrsim \frac{\text{thermal energy per particle}}{\langle\sigma v\rangle E_{\alpha}}.
-\]
+$$
 
 Multiplying by temperature gives the triple product. The optimum temperature is not selected from this equation alone because confinement, radiation, beta, current drive, impurities, and material loads change with operating point. **[Demonstrated framework]**
 
 ## A.3 Rocket equation example
 
-Suppose a mission needs \(\Delta v=10\,\mathrm{km/s}\). At \(I_{sp}=450\,\mathrm{s}\), ideal mass ratio is \(\exp(10000/(9.81\times450))\approx9.6\). At \(I_{sp}=3,000\,\mathrm{s}\), it is about 1.4. The latter looks transformative, but the high-Isp engine must still deliver mission-appropriate thrust and fit in the dry-mass budget. This is why specific power, rather than Isp alone, governs fusion-propulsion credibility. **[Demonstrated arithmetic]**
+Suppose a mission needs $\Delta v=10\,\mathrm{km/s}$. At $I_{sp}=450\,\mathrm{s}$, ideal mass ratio is $\exp(10000/(9.81\times450))\approx9.6$. At $I_{sp}=3,000\,\mathrm{s}$, it is about 1.4. The latter looks transformative, but the high-Isp engine must still deliver mission-appropriate thrust and fit in the dry-mass budget. This is why specific power, rather than Isp alone, governs fusion-propulsion credibility. **[Demonstrated arithmetic]**
 
 # Appendix B. Claim ledger (selected)
 
 | Claim | Tier | Key assumptions / counterargument | Sources |
 |---|---|---|---|
-| D–T releases 17.6 MeV | Demonstrated | Nuclear data are well established | [9, 10] |
-| NIF achieved target-level gain/ignition regime | Demonstrated | Does not include facility wall-plug electricity | [1, 2] |
-| ITER Q=10 is a design goal | Projected | Schedule and integrated performance remain uncertain | [3, 4] |
-| D–T plants need tritium breeding margin | Projected requirement | Exact required margin depends on inventory and losses | [5, 14] |
-| W7-X advanced optimized stellarator operation | Demonstrated | Not a power-plant test | [15] |
-| Grid fusion by mid-century | Projected | Depends on materials, TBR, maintenance, finance | [4–8] |
-| Fusion propulsion enables rapid crewed Mars missions | Speculative | Requires unprecedented specific power and shielding | [17, 18] |
+| D–T releases 17.6 MeV | Demonstrated | Nuclear data are well established | [9](#ref-9), [10](#ref-10) |
+| NIF achieved target-level gain/ignition regime | Demonstrated | Does not include facility wall-plug electricity | [1](#ref-1), [2](#ref-2) |
+| ITER Q=10 is a design goal | Projected | Schedule and integrated performance remain uncertain | [3](#ref-3), [4](#ref-4) |
+| D–T plants need tritium breeding margin | Projected requirement | Exact required margin depends on inventory and losses | [5](#ref-5), [14](#ref-14) |
+| W7-X advanced optimized stellarator operation | Demonstrated | Not a power-plant test | [15](#ref-15) |
+| Grid fusion by mid-century | Projected | Depends on materials, TBR, maintenance, finance | [4](#ref-4), [5](#ref-5), [6](#ref-6), [7](#ref-7), [8](#ref-8) |
+| Fusion propulsion enables rapid crewed Mars missions | Speculative | Requires unprecedented specific power and shielding | [17](#ref-17), [18](#ref-18) |
 
 # Appendix C. Glossary
 
 **Activation:** creation of radioactive isotopes when materials absorb nuclear particles.  
 **Alpha particle:** a helium-4 nucleus; the charged D–T fusion product.  
-**Beta (\(\beta\)):** plasma pressure divided by magnetic pressure.  
+**Beta ($\beta$):** plasma pressure divided by magnetic pressure.  
 **Blanket:** material surrounding a fusion chamber that absorbs neutrons, transfers heat, shields components, and may breed tritium.  
 **Bremsstrahlung:** radiation emitted when charged particles are accelerated, especially in collisions.  
 **Burning plasma:** a plasma in which fusion-produced alpha heating materially affects the energy balance.  
@@ -398,7 +398,7 @@ Suppose a mission needs \(\Delta v=10\,\mathrm{km/s}\). At \(I_{sp}=450\,\mathrm
 **Plasma:** ionized matter with collective electromagnetic behavior.  
 **TBR:** tritium breeding ratio, tritium produced divided by tritium consumed in a defined system boundary.  
 **Tokamak:** toroidal magnetic-confinement device using a plasma current.  
-**Triple product:** \(nT\tau_E\), a compact plasma-performance measure.  
+**Triple product:** $nT\tau_E$, a compact plasma-performance measure.  
 
 # Appendix D. Myth versus fact
 
@@ -414,23 +414,41 @@ Suppose a mission needs \(\Delta v=10\,\mathrm{km/s}\). At \(I_{sp}=450\,\mathrm
 
 # Appendix E. Annotated bibliography and primary-source guide
 
+<a id="ref-1"></a>
 1. **Lawrence Livermore National Laboratory / National Ignition Facility.** *Achieving fusion ignition* and related experimental reporting. Official account of target-level inertial-fusion results and their scientific boundary. https://lasers.llnl.gov/  
+<a id="ref-2"></a>
 2. Zylstra, A. B., et al. “Burning plasma achieved in inertial fusion.” *Nature* 601 (2022): 542–548. Primary peer-reviewed evidence on alpha-heating/burning-plasma physics. https://doi.org/10.1038/s41586-021-04281-w  
+<a id="ref-3"></a>
 3. **ITER Organization.** *ITER: the way to new energy* and project technical material. Design goals, machine architecture, and mission; not evidence of achieved gain. https://www.iter.org/  
+<a id="ref-4"></a>
 4. **International Atomic Energy Agency.** *Fusion* topic portal and *World Fusion Outlook 2025*. Broad international program and regulatory context. https://www.iaea.org/topics/fusion  
+<a id="ref-5"></a>
 5. Abdou, M. A., et al. “Blanket/tritium breeding requirements and the challenges.” *Fusion Engineering and Design* 54 (2001): 181–247. Foundational analysis of fuel-cycle constraints. https://doi.org/10.1016/S0920-3796(00)00354-8  
+<a id="ref-6"></a>
 6. **EUROfusion.** *European Research Roadmap to the Realisation of Fusion Energy* (2018 update and successor material). System-level R&D gaps for DEMO. https://euro-fusion.org/  
+<a id="ref-7"></a>
 7. **IAEA.** *Decommissioning and Waste Management Considerations for Fusion Facilities* (2026). Contemporary regulatory and waste framing. https://www.iaea.org/publications  
+<a id="ref-8"></a>
 8. **U.S. Department of Energy.** *Fusion Energy Strategy* and Fusion Energy Sciences program materials. Public roadmap and funding context; schedule targets remain projections. https://www.energy.gov/science/fes/fusion-energy-sciences  
+<a id="ref-9"></a>
 9. **IAEA Nuclear Data Services.** Evaluated nuclear-data resources for reaction energies and cross-sections. https://www-nds.iaea.org/  
+<a id="ref-10"></a>
 10. Bosch, H.-S., and G. M. Hale. “Improved formulas for fusion cross-sections and thermal reactivities.” *Nuclear Fusion* 32 (1992): 611. Standard reactivity reference. https://doi.org/10.1088/0029-5515/32/4/I07  
+<a id="ref-11"></a>
 11. Rider, T. H. “Fundamental limitations on plasma fusion systems not in thermodynamic equilibrium.” *Physics of Plasmas* 2 (1995): 1853. Important caution for advanced/aneutronic fuel claims. https://doi.org/10.1063/1.871273  
+<a id="ref-12"></a>
 12. Wesson, J., and D. J. Campbell. *Tokamaks*, 4th ed. Oxford University Press, 2011. Comprehensive magnetic-fusion reference.  
+<a id="ref-13"></a>
 13. Lawson, J. D. “Some criteria for a power producing thermonuclear reactor.” *Proceedings of the Physical Society B* 70 (1957): 6–10. Original confinement criterion. https://doi.org/10.1088/0370-1301/70/1/303  
+<a id="ref-14"></a>
 14. **IAEA.** Tritium management and fusion safety publications. Primary institutional material on accounting and containment. https://www.iaea.org/  
+<a id="ref-15"></a>
 15. **Max Planck Institute for Plasma Physics.** Wendelstein 7-X program and peer-reviewed publications. Evidence for optimized stellarator research, not commercial operation. https://www.ipp.mpg.de/w7x  
+<a id="ref-16"></a>
 16. **IAEA.** *International Experience in the Regulation of Fusion Facilities* (2025). Current regulatory comparison. https://www.iaea.org/publications  
+<a id="ref-17"></a>
 17. Frisbee, R. H. “Advanced space propulsion for the 21st century.” *Journal of Propulsion and Power* 19 (2003): 1129–1154. A technical survey of future propulsion concepts. https://doi.org/10.2514/2.6942  
+<a id="ref-18"></a>
 18. **NASA.** Nuclear propulsion and space-technology program material. Useful for contrast with more mature nuclear-thermal and nuclear-electric concepts. https://www.nasa.gov/  
 
 **Citation note.** Web sources were checked on 26 August 2026. Facility schedule, company milestones, and policy details change; readers should treat dated official reporting as a snapshot and distinguish it from independently reviewed experimental literature.
@@ -451,7 +469,7 @@ Suppose a mission needs \(\Delta v=10\,\mathrm{km/s}\). At \(I_{sp}=450\,\mathrm
 
 ## F.2 Fuel-cycle implications
 
-| Property | D–T | D–D | D–\(^3\)He | p–B11 |
+| Property | D–T | D–D | D–$^3$He | p–B11 |
 |---|---|---|---|---|
 | Reactivity at accessible fusion temperatures | Best | Lower | Lower and hotter | Much lower/hotter |
 | Dominant useful product | Neutron energy + alpha heating | Mixed branches | Charged products | Charged products |
@@ -462,11 +480,11 @@ Suppose a mission needs \(\Delta v=10\,\mathrm{km/s}\). At \(I_{sp}=450\,\mathrm
 
 ## F.3 Thermal conversion and parasitic-load checklist
 
-An honest plant energy balance should show, preferably as a Sankey diagram or numerical table, all of the following boundaries: fusion power; blanket heat recovered; gross turbine output; magnet cryogenic power; plasma heating and current drive; pumps and coolant systems; vacuum; tritium processing; control/diagnostics; site loads; availability loss; and annual exported electricity. Omitting an input is often more consequential than improving a headline \(Q\) value. **[Accounting rule]**
+An honest plant energy balance should show, preferably as a Sankey diagram or numerical table, all of the following boundaries: fusion power; blanket heat recovered; gross turbine output; magnet cryogenic power; plasma heating and current drive; pumps and coolant systems; vacuum; tritium processing; control/diagnostics; site loads; availability loss; and annual exported electricity. Omitting an input is often more consequential than improving a headline $Q$ value. **[Accounting rule]**
 
 | Item often left implicit | Why it matters |
 |---|---|
-| Wall-plug-to-plasma heating efficiency | A high \(Q_{plasma}\) may still correspond to large facility power draw. |
+| Wall-plug-to-plasma heating efficiency | A high $Q_{plasma}$ may still correspond to large facility power draw. |
 | Cryogenic load and magnet protection | Superconducting magnets save resistive power but require refrigeration and reliability systems. |
 | Current-drive power | Essential to many steady-state tokamak projections. |
 | Blanket/primary-coolant temperature | Sets conversion efficiency and materials constraints. |
