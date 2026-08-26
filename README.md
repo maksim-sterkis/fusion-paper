@@ -42,6 +42,7 @@ For spaceflight, a terrestrial fusion power plant is not an engine. A spacecraft
 Nuclei are bound by the strong nuclear force. Binding energy per nucleon rises steeply from hydrogen toward iron, so fusing light nuclei can lower the total rest mass. The mass difference appears as kinetic energy and radiation, according to $E=mc^2$. D–T fusion is
 
 $$
+\large
 {}^2\mathrm{H}+{}^3\mathrm{H}\rightarrow{}^4\mathrm{He}\,(3.5\ \mathrm{MeV})+n\,(14.1\ \mathrm{MeV}),
 $$
 
@@ -54,6 +55,7 @@ Fusion and fission are both nuclear-energy technologies, but their control probl
 Two bare nuclei with charges $Z_1e$ and $Z_2e$ repel through the Coulomb potential. Thermal particles need not classically surmount the barrier; quantum tunnelling allows a small fraction of collisions to react. The cross-section is strongly energy-dependent and is conventionally written through an astrophysical S-factor and a Gamow factor. For Maxwellian fuel distributions, the volumetric fusion power scales roughly as
 
 $$
+\large
 P_f= n_D n_T\langle\sigma v\rangle E_f,
 $$
 
@@ -256,6 +258,7 @@ Safeguards attention is warranted where tritium, high-flux neutrons, lithium pro
 The ideal rocket equation is
 
 $$
+\large
 \Delta v = v_e\ln\!\left(\frac{m_0}{m_f}\right)=g_0 I_{sp}\ln\!\left(\frac{m_0}{m_f}\right),
 $$
 
@@ -351,6 +354,7 @@ The balanced judgment is neither “fusion is solved” nor “fusion is forever
 For two distinct Maxwellian species, reaction rate per volume is
 
 $$
+\large
 R = n_1n_2\langle\sigma v\rangle.
 $$
 
@@ -361,6 +365,7 @@ For an equimolar D–T plasma of electron density approximately equal to ion den
 In an idealized D–T thermal plasma, alpha heating must at least balance energy losses. With thermal energy density proportional to $nT$ and loss power density approximately energy density divided by $\tau_E$, the ignition condition takes the form
 
 $$
+\large
 n\tau_E \gtrsim \frac{\text{thermal energy per particle}}{\langle\sigma v\rangle E_{\alpha}}.
 $$
 
